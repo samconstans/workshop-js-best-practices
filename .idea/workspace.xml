@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f957c530-91d2-47d2-aea1-ee1c63ddc9ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solution3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solution5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balanceManager.js" afterPath="$PROJECT_DIR$/balanceManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/changeHandler.js" afterPath="$PROJECT_DIR$/changeHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productInventory.js" afterPath="$PROJECT_DIR$/productInventory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solution7.js" afterPath="$PROJECT_DIR$/solution7.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine.js" afterPath="$PROJECT_DIR$/vendingMachine.js" />
-    </list>
+    <list default="true" id="f957c530-91d2-47d2-aea1-ee1c63ddc9ba" name="Default" comment="" />
     <ignored path="workshop-js-best-practices.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -216,15 +207,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495197840402</updated>
-      <workItem from="1495197842930" duration="3346000" />
+      <workItem from="1495197842930" duration="3677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3346000" />
+    <option name="totallyTimeSpent" value="3677000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="24" width="1315" height="744" extended-state="6" />
+    <frame x="51" y="24" width="1315" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
