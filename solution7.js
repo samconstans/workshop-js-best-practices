@@ -1,15 +1,35 @@
-/*
- ## Verify Your Full Vending Machine Implementation (Exercise 8 of 8)
+var balance = 0;
 
- # Verify Vending Machine
-
- Now that we've decomposed our initial JavaScript file into three separate,
- self-contained classes, we should finally test the remaining methods that
- act as the entry points into these classes' functionality. In practice,
- you should always delegate specific functionality to its own service and
- have a controller like vendingMachine.js orchestrate all the work that
- these services do. If all has gone well, the only thing you should have to
- do in this exercise is replace any this references with references to the
- classes that call the methods.
-
- */
+module.exports = {
+    increaseBalance: function(amount){
+        balance += amount;
+    },
+    getBalance: function(){
+        return balance;
+    },
+    canAfford: function(amount){
+        if(this.isValidAmount(amount)){
+            var errorMessage = 'Invalid Input';
+        }
+        if(errorMessage){
+            throw new Error(errorMessage);
+        }
+        return amount <= balance;
+    },
+    decreaseBalance: function(amount){
+        if(!this.canAfford(amount)){
+            var errorMessage = 'Insufficient balance';
+        }
+        if(errorMessage){
+            throw new Error(errorMessage);
+        }
+        balance -= amount;
+    },
+    isValidAmount: function(amount){
+        if(!amount){
+            return false;
+        } else {
+            return true;
+        }
+    }
+};
